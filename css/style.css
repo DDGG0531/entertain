@@ -1,0 +1,555 @@
+@charset "UTF-8";
+@media all and (max-width: 767px) and (min-width: 577px) {
+  .pc {
+    display: none !important;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .pc {
+    display: none !important;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .pad {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1170px) {
+  .upexist {
+    display: none;
+  }
+}
+
+@media (min-width: 1171px) {
+  .downexist {
+    display: none;
+  }
+}
+
+@media all and (max-width: 767px) and (min-width: 577px) {
+  .container {
+    max-width: none;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .container {
+    max-width: none;
+  }
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: '微軟正黑體';
+}
+
+img {
+  max-width: 100%;
+}
+
+.px-16 {
+  font-size: 16px;
+}
+
+.px-15 {
+  font-size: 15px;
+}
+
+.px-12 {
+  font-size: 12px;
+}
+
+.px-13 {
+  font-size: 13px;
+}
+
+.px-22 {
+  font-size: 22px;
+}
+
+.px-40 {
+  font-size: 40px;
+}
+
+.font-2240 {
+  font-size: 22px;
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .font-2240 {
+    font-size: 40px;
+  }
+}
+
+#connect {
+  display: block;
+  width: 40px;
+  height: 160px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e6b980), to(#eacda3));
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  font-size: 21px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 150px;
+  right: 10px;
+  z-index: 99999999;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 10px;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+
+#connect-detail {
+  display: none;
+  width: 220px;
+  height: auto;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#e6b980), to(#eacda3));
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  right: 10px;
+  z-index: 99999999;
+  border: 5px solid;
+  border-radius: 10px;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+
+#connect-detail .row {
+  cursor: pointer;
+}
+
+#connect-detail .row:hover {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#c79081), to(#dfa579));
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+
+#connect-detail .border-b-white {
+  border-bottom: 1px white solid;
+}
+
+#connect-detail .touch {
+  cursor: pointer;
+}
+
+.owl-carousel button:focus {
+  outline: none;
+}
+
+.marquee-wrapper {
+  background: rgba(25, 25, 25, 0.2);
+}
+
+@media (max-width: 767px) {
+  .marquee-wrapper {
+    background: #8e8e8e;
+  }
+}
+
+.marquee {
+  overflow: hidden;
+  background: rgba(25, 25, 25, 0.2);
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .marquee {
+    background: #8e8e8e;
+  }
+}
+
+.marquee2 {
+  overflow: hidden;
+  background: #191919;
+  color: #fff;
+  height: 160px;
+}
+
+@media (max-width: 991px) {
+  .marquee2 {
+    font-size: 10px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  #top {
+    position: relative;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  #top .bg-image {
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+  }
+  #top .bg-image-1 {
+    background-image: url("../img/電腦/1-6-b.jpg");
+  }
+  #top .bg-image-2 {
+    display: none;
+    background-image: url("../img/電腦/1-3-b.jpg");
+  }
+  #top .bg-image-3 {
+    display: none;
+    background-image: url("../img/電腦/1-1-b.jpg");
+  }
+}
+
+@media (min-width: 992px) {
+  #top .navbar-nav a {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 10px;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+  }
+  #top .navbar-nav a:hover {
+    border-bottom: 2px solid white;
+  }
+}
+
+@media all and (max-width: 767px) and (min-width: 577px) {
+  #top {
+    background-color: #191919;
+  }
+}
+
+@media all and (max-width: 576px) {
+  #top {
+    background-color: #191919;
+  }
+}
+
+#top .input-bg {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+
+#top ::-webkit-input-placeholder {
+  color: white;
+}
+
+#top :-ms-input-placeholder {
+  color: white;
+}
+
+#top ::-ms-input-placeholder {
+  color: white;
+}
+
+#top ::placeholder {
+  color: white;
+}
+
+#top .btn-orange-m {
+  background-color: orange;
+}
+
+#top .font-auto {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (min-width: 1500px) {
+  #top .font-auto {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1170px) {
+  #top .font-auto {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  #top .font-auto {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  #top .font-auto {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #top .putinline {
+    width: 50px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+#mid {
+  background-color: #191919;
+}
+
+@media all and (max-width: 576px) {
+  #mid .block-right {
+    display: none;
+  }
+}
+
+#mid .hr-nonestop {
+  margin-bottom: 40px;
+}
+
+#mid .li-mb-13 li {
+  margin-bottom: 13px;
+}
+
+#mid figure img {
+  width: 95%;
+}
+
+#bot {
+  background-color: #191919;
+}
+
+#bot .best-title {
+  position: relative;
+  color: orange;
+}
+
+#bot .best-title::before {
+  content: '';
+  background: url("../img/電腦/2-11.png") center no-repeat;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 50px;
+  left: 50%;
+  height: 222px;
+  width: 100%;
+  z-index: 100;
+}
+
+#bot .mask-outter {
+  background-image: url("../img/電腦/3-1.png");
+  position: relative;
+  overflow: hidden;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bot .mask-outter .frame {
+  position: absolute;
+  left: 50%;
+  top: 51%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 10000;
+}
+
+#bot .mask-outter .frame1 {
+  opacity: 0;
+}
+
+#bot .mask-outter .mask {
+  content: '';
+  background: url("../img/電腦/3-3.png") top center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+#bot .mask-outter .mask-inner {
+  position: relative;
+  height: 365px;
+}
+
+#bot .mask-outter .mask-inner .mask-text-1 {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  z-index: 200;
+  width: 200px;
+}
+
+#bot .mask-outter .mask-inner .mask-text-2 {
+  content: '';
+  position: absolute;
+  top: 30px;
+  right: 80px;
+  z-index: 200;
+  width: 200px;
+}
+
+#bot .mask-outter .mask-inner .mask-text-3 {
+  content: '';
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  z-index: 200;
+  width: 200px;
+}
+
+#bot .mask-outter .mask-inner .mask-text-4 {
+  content: '';
+  position: absolute;
+  bottom: 30px;
+  right: 80px;
+  z-index: 200;
+  width: 200px;
+}
+
+#bot .coop-text {
+  color: orange;
+}
+
+#bot .back-shadow {
+  height: 50px;
+  position: relative;
+}
+
+@media all and (min-width: 768px) {
+  #bot .back-shadow {
+    height: 250px;
+  }
+}
+
+#bot-pad {
+  padding-top: 85px;
+  padding-bottom: 85px;
+  background-color: #191919;
+}
+
+#bot-pad .media-body h5 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  #bot-pad .media-body h5 {
+    font-size: 21px;
+  }
+}
+
+#bot-pad .media-body p {
+  font-size: 28px;
+}
+
+@media (max-width: 576px) {
+  #bot-pad .media-body p {
+    font-size: 14px;
+  }
+}
+
+#bot-pad #iframe {
+  position: relative;
+}
+
+@media (max-width: 1170px) {
+  #bot-pad #iframe {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+
+#bot-pad #iframe::before {
+  content: '';
+  position: absolute;
+  background: url("../img/平板/3-1.png");
+  height: 50px;
+  width: 100%;
+  top: -85px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+@media (max-width: 1170px) {
+  #bot-pad #iframe::before {
+    height: 50px;
+  }
+}
+
+#bot-pad #iframe::after {
+  content: '';
+  position: absolute;
+  background: url("../img/平板/3-7.png");
+  height: 50px;
+  width: 100%;
+  bottom: -85px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+@media (max-width: 1170px) {
+  #bot-pad #iframe::after {
+    height: 50px;
+  }
+}
+
+#bot-pad #iframe .bg {
+  background: url("../img/平板/3-2.png");
+  background-size: cover;
+  background-position: center center;
+  height: 495px;
+  padding: 37.5px 0;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 576px) {
+  #bot-pad #iframe .bg {
+    height: 300px;
+  }
+}
+
+#bot-pad #iframe .bg .frame {
+  width: calc(80%);
+}
+
+.logos {
+  background-color: #191919;
+}
+
+@media (max-width: 1170px) {
+  .logos {
+    padding-top: 70px;
+  }
+}
+
+.logos .coop-text {
+  color: orange;
+}
+
+hr {
+  background-color: #191919;
+  border-color: blueviolet;
+}
+
+footer {
+  background-color: #191919;
+}
+
+footer .text-muted {
+  font-size: 15px;
+}
+
+#assign-ok {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

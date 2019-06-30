@@ -1,0 +1,41 @@
+@mixin pc-width
+  @media all and (min-width: $pc-media)
+    @content
+@mixin pad-width
+  @media all and (max-width: $pad-media-t ) and (min-width: $pad-media-b)
+    @content
+@mixin phone-width
+  @media all and (max-width: $phone-media)
+    @content
+@mixin pad-below-width
+  @media all and (max-width: $pad-media-t )
+    @content
+.pc
+  +pad-width
+    display: none !important
+  +phone-width
+    display: none !important
+.pad
+  +pc-width
+    display: none !important
+// 1170以上up出現 down不出現 反之
+
+.upexist
+  @media (max-width: 1170px)
+    display: none
+.downexist
+  @media (min-width: 1171px)
+    display: none
+
+
+
+.container
+  +pad-width
+    max-width: none
+  +phone-width
+    max-width: none
+
+
+
+
+
